@@ -26,6 +26,7 @@ body {
     width: 1440px;
     align-items: center;
     justify-content: center;
+    
 }
 
 .page_header {
@@ -69,11 +70,9 @@ body {
 .page_main {
     width: 1440px;
     height: 812px;
-    /* padding-top: 91px; */
 }
 
 .main_top {
-    /* padding-top: 91px; */
     height: 555px;
     background-color: #929292;
 }
@@ -92,6 +91,10 @@ body {
     padding-top: 91px;
 }
 
+.main_textblock_header {
+    display: flex;
+}
+
 .main_textblock_text_large {
     font-size: 64px;
     color: #ffffff;
@@ -108,15 +111,23 @@ body {
 
 .button {
     text-align: center;
+    box-shadow: 0px 2px 8px rgba(0,0,0,0.25);
 }
 
 .main_textblock_button {
     width: 186px;
     height: 38px;
     border-radius: 20px;
-    background-color: #878787;
-    color: #f8f8f8;
+    background-color: #70A9A1;
+    color: #272D2D;
     border-style: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.button:hover {
+    background-color: #40798C;
+    color: #06070E;
 }
 
 .cards {
@@ -134,6 +145,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.25);
 }
 
 .card_image {
@@ -168,4 +180,48 @@ body {
     /* margin: 16px 27px 20px 27px; */
     margin-left: 27px;
     margin-right: 27px;
+}
+
+.icon_heart {
+    font-size: 42px;
+}
+
+.text_color_red {
+    color: red;
+}
+
+.text_color_blue {
+    color: blue;
+}
+
+.text_color_yellow {
+    color: yellow;
+}
+
+.text_color_green {
+    color: green;
+}
+
+.text_color_pink {
+    color: pink;
+}
+
+.text_color_purple {
+    color: purple;
+}
+
+.text_color_orange {
+    color: orange;
+}
+
+.background_blue {
+    background-color: blue;
+}
+
+.background_green {
+    background-color: green;
+}
+
+.background_red {
+    background-color: red;
 }

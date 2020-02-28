@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/style.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/19c75b59f6.js" crossorigin="anonymous"></script>
     <title>More Flex Box and BEM!</title>
 </head>
 <body class="page">
@@ -14,10 +15,10 @@
             <nav class="navigation">
                 <a class="link" href="#"><img src="images/globe.png" class="logo" alt="Globe icon"></a>
                 <ul class="navigation_links">
-                    <li class="navigation_link"><a class="link link_text" href="#">Red</a></li>
-                    <li class="navigation_link"><a class="link link_text" href="#">Blue</a></li>
-                    <li class="navigation_link"><a class="link link_text" href="#">Yellow</a></li>
-                    <li class="navigation_link"><a class="link link_text" href="#">Green</a></li>
+                    <li class="navigation_link"><a class="link link_text text_color_red" href="#">Red</a></li>
+                    <li class="navigation_link"><a class="link link_text text_color_blue" href="#">Blue</a></li>
+                    <li class="navigation_link"><a class="link link_text text_color_yellow" href="#">Yellow</a></li>
+                    <li class="navigation_link"><a class="link link_text text_color_green" href="#">Green</a></li>
                 </ul>
             </nav>
         </header>
@@ -25,23 +26,33 @@
         <div class="page_main">
             <div class="main_top">
                 <div class="main_textblock">
-                    <p class="main_textblock_text_large">I heart color</p>
+                    <div class="main_textblock_header">
+                        <p class="main_textblock_text_large text_color_yellow">I &nbsp</p>
+                        <p class="main_textblock_text_large"><i class="fas fa-heart icon_heart text_color_red"></i></p>
+                        <p class="main_textblock_text_large text_color_green">&nbsp c</p>
+                        <p class="main_textblock_text_large text_color_blue">o</p>
+                        <p class="main_textblock_text_large text_color_pink">l</p>
+                        <p class="main_textblock_text_large text_color_purple">o</p>
+                        <p class="main_textblock_text_large text_color_orange">r</p>
+                    </div>
                     <p class="main_textblock_text_small">Color isn’t that difficult to get right, if you know <br> where to start.<br>
-                        Learn by doing and you’ll be a master in no time.</p>
+                            Learn by doing and you’ll be a master in no time.</p>
+                        
                     <button class="button main_textblock_button">Over to you</button>
+                    
                 </div>
                 <div class="cards">
-                    <div class="card">
+                    <div class="card background_blue">
                         <img src="images/star.png" class="card_image card_image_star">
                         <div class="card_header">Blue</div>
                         <div class="card_text">Blue is the color of the sky and sea. It is often associated with depth  and stability.</div>
                     </div>
-                    <div class="card">
+                    <div class="card background_green">
                         <img src="images/ufo.png" class="card_image card_image_ufo">
                         <div class="card_header">Green</div>
                         <div class="card_text">Green is the color of nature. It symbolizes growth, harmony, freshness and fertility.</div>
                     </div>
-                    <div class="card">
+                    <div class="card background_red">
                         <img src="images/planet.png" class="card_image card_image_planet">
                         <div class="card_header">Red</div>
                         <div class="card_text">Red is the color of fire and blood, so it assosiates with energy, strength, power determination, as well as, passion.</div>
